@@ -1,0 +1,150 @@
+.navbar-brand{
+    margin-left: 60px;
+    font-weight: 900 ;
+    color: aliceblue;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+li{
+    font-weight: 800 ;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.nav-link{
+    color: aliceblue;
+}
+.text{
+    margin-top: 20px;
+}
+nav{
+    background-color:#DAC19E ;
+    color: black;
+}
+#Home{
+    height: 90vh;
+}
+.firstImg{
+    margin-left: 80px;
+}
+
+.btn1{
+    margin-top: 50px;
+    margin:auto
+}
+h1{
+    font-size: 80px;
+}
+span{
+    color:#845D29 ;
+}
+.btnH{
+    margin-top: 50px;
+    border:solid #DAC19E;
+    margin-right: 50px;
+    background-color:#DAC19E;
+}
+.btnH:hover{
+    border: solid #DAC19E ;
+}
+.btnL{
+    width:150px ;
+    height: auto;
+    margin-top: 50px;
+    border: solid #DAC19E;
+}
+.btnL:hover{
+    border: solid #DAC19E ;
+    background-color:#DAC19E ;
+}
+.secandSec{
+    margin-top: 20px;
+    background-color: #DAC19E;
+}
+.aboutMe{
+    text-align: center;
+}
+.progress-bar {
+    text-align: left;
+    padding-left: 10px;
+}
+.skillPart{
+    background-color: #DAC19E;
+} 
+.icon a{
+    margin: 10px;
+    font-size: xx-large;
+    color: black;
+}
+.icon a:hover{
+color: #DAC19E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .firstImg {
+        display: none;
+    }
+    .text-center {
+        width: 100%;
+    }
+    #Home{
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    
+    .firstImg {
+        display: none;
+    }
+    .text-center {
+        width: 100%;
+    }
+    #Home{
+        height: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .firstImg {
+        width: 500px;
+    }
+    #Home{
+        height: auto;
+    }
+}
